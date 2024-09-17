@@ -44,9 +44,9 @@ var Stars = function (args) {
     this.render();
   };
   this.render = function () {
-    context.fillStyle = "rgba(17, 17, 17, 1)";
+    context.fillStyle = "rgb(255, 255, 225)";
     context.fillRect(0, 0, canvas.width, canvas.height);
-    context.strokeStyle = "white";
+    context.strokeStyle = "black";
     for (var i = 0; i < this.stars.length; i++) this.stars[i].update();
   };
 
