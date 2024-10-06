@@ -2,7 +2,7 @@
 
 // script.js
 document.querySelector("#payButton").addEventListener("click", function () {
-  const upiUrl = "https://link.upilink.in/8348686983@yapl";
+  const upiUrl = "upi://pay?pa=souvikrahutofficial-1@oksbi&pn=Souvik%20_R&aid=uGICAgMDyrIexZA";
 
   // Function to detect if the user is on a mobile device
   function isMobile() {
